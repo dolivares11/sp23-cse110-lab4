@@ -49,3 +49,10 @@ The output is false because false maps to 0, and 0 is not equal to 2.
 F. Output: true
 The output is true because Boolean() maps any number that isn't 0 to true, which maps 2 to true. Therefore, true === true is true.
 15. The difference between the == and the === are that the === must be of the exact same data type while the == can compare two different types by converting types if needed.
+17. The result would be 
+18. The output of the code above would be
+Output:  
+1
+4
+3
+2
