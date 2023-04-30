@@ -1,0 +1,11 @@
+1. At line 12, it will print the last value that i was in the for loop, which is 3.
+2. At line 13, it will print the last known value of discountedPrice, so 300 * (1-.5) = 150. Therefore, it will print 150 to the console.
+3. At line 14, it will print the last finalPrice, which is Math.round(150 * 100) / 100 or 150. Therefore, it will print 150 to the console.
+4. This would return an array that has the values [50, 100, 150]. This is because for each time it runs through an iteration of the for loop it is pushing that finalPrice to the discounted array that it returns at the end of all for loop iterations.
+5. This would cause an error because it is trying to console.log(i), but i was declared inside the for loop statement. The for loop conditions () still counts as being declared inside the for loop.
+6. This would cause an error because discountedPrice was initialized using let, and so we can not access it outside of the for loop block.
+7. At line 14, this would print 150 to the console because we initialized the finalPrice variable outside of the for loop block, therefore we can access it at any point in the function.
+8. This would return an array that has the values [50, 100, 150]. This is because for each time it runs through an iteration of the for loop it is pushing that finalPrice to the discounted array that it returns at the end of all for loop iterations.
+9. This would cause an error because we used let to initialize our i variable inside the for loop conditions, which technically means it is in the block scope of the for loop. Therefore, we can't access it outside of the for loop block and this would cause an error.
+10. At line 12, this would print 3 because the prices.length is given at the beginning and we initialized the variable using const, so we can access it in the whole scope of the function. Also, the prices array has 3 values,  so the length is 3.
+11. This would return an array that has the values [50, 100, 150]. This is because for each time it runs through an iteration of the for loop it is pushing the discountedPrice to the discounted array that it returns at the end of all for loop iterations.
