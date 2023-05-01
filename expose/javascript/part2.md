@@ -1,6 +1,3 @@
-<style type="text/css">
-    ol { list-style-type: upper-alpha; }
-</style>
 1. At line 12, it will print the last value that i was in the for loop, which is 3.
 2. At line 13, it will print the last known value of discountedPrice, so 300 * (1-.5) = 150. Therefore, it will print 150 to the console.
 3. At line 14, it will print the last finalPrice, which is Math.round(150 * 100) / 100 or 150. Therefore, it will print 150 to the console.
