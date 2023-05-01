@@ -1,2 +1,2 @@
 1. The bug was that we are doing addition using two string variables. For example, if we input "1" and "2" it doesn't turn them into integer variables, but just concantenates them as strings, which outputs "12".
-2. 
+2. I fixed it by converting the input to using the Number() function. This makes the addition that occurs into math addition instead of string concantenation.

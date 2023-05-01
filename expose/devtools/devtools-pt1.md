@@ -3,7 +3,7 @@
 3. 779 kB
 4. 63 ms
 5. Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
-6. not sure
+6. Fetch
 7. Thu, 15 Sep 2022 22:44:30 GMT
-8. not sure
+8. application/json
 9. fetch('./citylots.json')
