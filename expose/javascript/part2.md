@@ -14,45 +14,45 @@
 11. This would return an array that has the values [50, 100, 150]. This is because for each time it runs through an iteration of the for loop it is pushing the discountedPrice to the discounted array that it returns at the end of all for loop iterations.
 12. 
 A. student.name <br>
-B. student['Grad Year']
-C. student.greeting()
-D. student['Favorite Teacher].name
-E. student.courseLoad[0]
+B. student['Grad Year'] <br>
+C. student.greeting() <br>
+D. student['Favorite Teacher].name <br>
+E. student.courseLoad[0] <br>
 13. 
-A. Output: '32'
-The output was like this because the integer 2 is converted to a string and concantenated with '3'.
-B. Output: 1
-The output is 1 because the '3' is converted from a string type to an integer type and regular subtraction is performed. 
-C. Output: 3
-The output is 3 because null's value is converted to 0, and therefore 3 + 0 = 3.
-D. Output: true
-The output is true because == can compare types that aren't the same, so '2' is converted to its equivalent integer 2 using something like Number('2'). Consequently, 2 == 2 returns true
-E. Output: 4
-The output is 4 because true maps to 1 and doing 1 + 3 = 4.
-F. Output: 0
-The output is 0 because false maps to 0, and null maps to 0 as well. Therefore, 0 + 0 = 0.
-G. Output: '3undefined'
-The output is '3undefined' because undefined is mapped to a string, which just concantenates both strings together.
-H. Output: NaN
-The output is Nan because undefined numeric conversion is NaN, and 3 - NaN is NaN.
+A. Output: '32' <br>
+The output was like this because the integer 2 is converted to a string and concantenated with '3'. <br>
+B. Output: 1 <br>
+The output is 1 because the '3' is converted from a string type to an integer  type and regular subtraction is performed.  <br>
+C. Output: 3 <br>
+The output is 3 because null's value is converted to 0, and therefore 3 + 0 = 3. <br>
+D. Output: true <br>
+The output is true because == can compare types that aren't the same, so '2' is converted to its equivalent integer 2 using something like Number('2'). Consequently, 2 == 2 returns true <br>
+E. Output: 4 <br>
+The output is 4 because true maps to 1 and doing 1 + 3 = 4. <br>
+F. Output: 0 <br>
+The output is 0 because false maps to 0, and null maps to 0 as well. Therefore, 0 + 0 = 0. <br>
+G. Output: '3undefined' <br>
+The output is '3undefined' because undefined is mapped to a string, which just concantenates both strings together. <br>
+H. Output: NaN <br>
+The output is Nan because undefined numeric conversion is NaN, and 3 - NaN is NaN. <br>
 14. 
-A. Output: true
-The output is true because '2' is mapped to an integer, and so 2 > 1 is true.
+A. Output: true <br>
+The output is true because '2' is mapped to an integer, and so 2 > 1 is true. <br>
 B. Output: true
-The output is true because the first character of '2' is greater than the first character of '12'.
-C. Output: true
-The output is true because javascript converts '2' to its equivalent integer 2, which makes the comparison true.
-D. Output: false
-The output is false because 2 is an integer type, and '2' is a string type. There is strict equality checking when using ===, so it considers different data types different unlike ==.
-E. Output: false
-The output is false because false maps to 0, and 0 is not equal to 2.
-F. Output: true
-The output is true because Boolean() maps any number that isn't 0 to true, which maps 2 to true. Therefore, true === true is true.
-15. The difference between the == and the === are that the === must be of the exact same data type while the == can compare two different types by converting types if needed.
-17. The result would be [2, 4, 6] because once in the for loop it pushes the value of doSomething(currentNumber), which multiplies the current number by 2. Therefore, it pushes 2, 4, 6 in that order since we get the array 1, 2, 3.
-18. The output of the code above would be
-Output:  
-1
-4
-3
-2
+The output is true because the first character of '2' is greater than the first character of '12'. <br>
+C. Output: true <br>
+The output is true because javascript converts '2' to its equivalent integer 2, which makes the comparison true. <br>
+D. Output: false <br>
+The output is false because 2 is an integer type, and '2' is a string type. There is strict equality checking when using ===, so it considers different data types different unlike ==. <br>
+E. Output: false <br>
+The output is false because false maps to 0, and 0 is not equal to 2. <br>
+F. Output: true <br>
+The output is true because Boolean() maps any number that isn't 0 to true, which maps 2 to true. Therefore, true === true is true. <br>
+15. The difference between the == and the === are that the === must be of the exact same data type while the == can compare two different types by converting types if needed. <br>
+17. The result would be [2, 4, 6] because once in the for loop it pushes the value of doSomething(currentNumber), which multiplies the current number by 2. Therefore, it pushes 2, 4, 6 in that order since we get the array 1, 2, 3. <br>
+18. The output of the code above would be <br>
+Output:  <br>
+1 <br>
+4 <br>
+3 <br>
+2 <br>
