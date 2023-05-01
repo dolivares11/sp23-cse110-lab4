@@ -13,7 +13,7 @@
 10. At line 12, this would print 3 because the prices.length is given at the beginning and we initialized the variable using const, so we can access it in the whole scope of the function. Also, the prices array has 3 values,  so the length is 3.
 11. This would return an array that has the values [50, 100, 150]. This is because for each time it runs through an iteration of the for loop it is pushing the discountedPrice to the discounted array that it returns at the end of all for loop iterations.
 12. 
-A. student.name
+A. student.name <br>
 B. student['Grad Year']
 C. student.greeting()
 D. student['Favorite Teacher].name
